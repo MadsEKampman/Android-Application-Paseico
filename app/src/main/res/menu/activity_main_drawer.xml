@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+                android:id="@+id/Profile"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="@string/menu_profile"/>
+        <item
+                android:id="@+id/UserCreatedRoutes"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="@string/menu_user_created_routes" />
+        <item
+            android:id="@+id/RouteSearchFragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_route_search_fragment_label" />
+
+        <item
+            android:id="@+id/nav_searchUsers"
+            android:icon="@drawable/ic_person"
+            android:title="@string/menu_userSearch" />
+
+        <item
+            android:id="@+id/nav_marketplace"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_marketplace"/>
+    </group>
+</menu>
